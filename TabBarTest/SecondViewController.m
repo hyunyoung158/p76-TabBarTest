@@ -1,19 +1,19 @@
 //
-//  ViewController.m
+//  SecondViewController.m
 //  TabBarTest
 //
 //  Created by SDT-1 on 2014. 1. 13..
 //  Copyright (c) 2014년 SDT-1. All rights reserved.
 //
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "SecondViewController.h"
 
-@interface ViewController () <UITextFieldDelegate>
+@interface SecondViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
-@implementation ViewController
+@implementation SecondViewController
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [self.textField resignFirstResponder];
@@ -29,10 +29,21 @@
     AppDelegate *delegate = [UIApplication sharedApplication].delegate;
     self.textField.text = delegate.sharedStr;
 }
+
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning

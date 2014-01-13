@@ -21,6 +21,7 @@
 		00ABC710188371A70038ACEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABC6F2188371A70038ACEE /* UIKit.framework */; };
 		00ABC718188371A70038ACEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00ABC716188371A70038ACEE /* InfoPlist.strings */; };
 		00ABC71A188371A70038ACEE /* TabBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABC719188371A70038ACEE /* TabBarTestTests.m */; };
+		00ABC72518837B7F0038ACEE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABC72418837B7F0038ACEE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00ABC715188371A70038ACEE /* TabBarTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBarTestTests-Info.plist"; sourceTree = "<group>"; };
 		00ABC717188371A70038ACEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00ABC719188371A70038ACEE /* TabBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarTestTests.m; sourceTree = "<group>"; };
+		00ABC72318837B7F0038ACEE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		00ABC72418837B7F0038ACEE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				00ABC704188371A70038ACEE /* ViewController.m */,
 				00ABC706188371A70038ACEE /* Images.xcassets */,
 				00ABC6F5188371A70038ACEE /* Supporting Files */,
+				00ABC72318837B7F0038ACEE /* SecondViewController.h */,
+				00ABC72418837B7F0038ACEE /* SecondViewController.m */,
 			);
 			path = TabBarTest;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00ABC72518837B7F0038ACEE /* SecondViewController.m in Sources */,
 				00ABC705188371A70038ACEE /* ViewController.m in Sources */,
 				00ABC6FF188371A70038ACEE /* AppDelegate.m in Sources */,
 				00ABC6FB188371A70038ACEE /* main.m in Sources */,
